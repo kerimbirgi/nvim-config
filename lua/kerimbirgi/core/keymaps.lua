@@ -13,4 +13,5 @@ vim.keymap.set({ 'n' }, '<A-j>', '<C-w>j')
 vim.keymap.set({ 'n' }, '<A-k>', '<C-w>k')
 vim.keymap.set({ 'n' }, '<A-l>', '<C-w>l')
 
-
+-- remove syntax highlighting with escape
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
