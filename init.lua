@@ -1,4 +1,2 @@
-require("kerimbirgi.lazy")
-require("kerimbirgi.core.options")
-require("kerimbirgi.core.keymaps")
-require("kerimbirgi.core.autocmds")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
